@@ -1,0 +1,12 @@
+crime_data/
+│
+├─ crime_app.py                 ← your Streamlit app file (root level)
+│
+├─ artifacts/                   ← trained model + encoders
+│   ├─ model_xgb.joblib
+│   ├─ label_encoder.joblib
+│   └─ onehot_columns.joblib
+│
+├─ requirements.txt
+├─ README.md
+└─ .gitignore
